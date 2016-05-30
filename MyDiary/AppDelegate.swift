@@ -16,10 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        initApperence()
         return true
     }
+    
+    func initApperence(){
+//        UINavigationBar.appearance().titleTextAttributes = o[NSFontAttributeName: PreferenceManager.share.preferFont.font, NSFregroundColorAttributeName: UIColor.redColor()] as [String : AnyObject]!
+        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: PreferenceManager.font]
+        UINavigationBar.appearance().tintColor = COLOR_BAR //item 颜色
 
+        UINavigationBar.appearance().barStyle = .BlackTranslucent
+        UINavigationBar.appearance().barTintColor = COLOR_BACK//背景颜色
+    }
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

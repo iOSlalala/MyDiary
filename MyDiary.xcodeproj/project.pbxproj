@@ -8,22 +8,77 @@
 
 /* Begin PBXBuildFile section */
 		6222DBA91BD0E39E006FDE2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6222DBA81BD0E39E006FDE2E /* AppDelegate.swift */; };
-		6222DBAB1BD0E39E006FDE2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6222DBAA1BD0E39E006FDE2E /* ViewController.swift */; };
 		6222DBAE1BD0E39E006FDE2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6222DBAC1BD0E39E006FDE2E /* Main.storyboard */; };
-		6222DBB11BD0E39E006FDE2E /* MyDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6222DBAF1BD0E39E006FDE2E /* MyDiary.xcdatamodeld */; };
 		6222DBB31BD0E39E006FDE2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6222DBB21BD0E39E006FDE2E /* Assets.xcassets */; };
 		6222DBB61BD0E39E006FDE2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6222DBB41BD0E39E006FDE2E /* LaunchScreen.storyboard */; };
+		6245B6341C4E279600874F4D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245B6331C4E279600874F4D /* Constants.swift */; };
+		6245B6361C4E27E600874F4D /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245B6351C4E27E600874F4D /* UserManager.swift */; };
+		6245B6381C4E280600874F4D /* PreferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245B6371C4E280600874F4D /* PreferenceManager.swift */; };
+		625493F31C5A5B0700B85A10 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625493F21C5A5B0700B85A10 /* BaseVC.swift */; };
+		625493FB1C5A727700B85A10 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 625493FA1C5A727700B85A10 /* icon.png */; };
+		62B53AE81C4F282600A5CA00 /* MyDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62B53AE61C4F282600A5CA00 /* MyDiary.xcdatamodeld */; };
+		62B53AEA1C4F319800A5CA00 /* MyFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B53AE91C4F319800A5CA00 /* MyFont.swift */; };
+		62CCE0211BF31855004DBCD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CCE0201BF31855004DBCD3 /* UIKit.framework */; };
+		62CCE0231BF3185D004DBCD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CCE0221BF3185D004DBCD3 /* Foundation.framework */; };
+		62CCE05A1BF319D5004DBCD3 /* DiaryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CCE02F1BF319D5004DBCD3 /* DiaryManager.swift */; };
+		62CCE05B1BF319D5004DBCD3 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CCE0311BF319D5004DBCD3 /* Diary.swift */; };
+		62CCE05C1BF319D5004DBCD3 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CCE0331BF319D5004DBCD3 /* TableCell.swift */; };
+		62CCE05D1BF319D5004DBCD3 /* AddDiaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CCE0351BF319D5004DBCD3 /* AddDiaryVC.swift */; };
+		62CCE05F1BF319D5004DBCD3 /* ChangeFontVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CCE0371BF319D5004DBCD3 /* ChangeFontVC.swift */; };
+		62CCE0611BF319D5004DBCD3 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CCE0391BF319D5004DBCD3 /* NavigationController.swift */; };
+		62CCE0621BF319D5004DBCD3 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CCE03A1BF319D5004DBCD3 /* SettingsVC.swift */; };
+		62CCE0631BF319D5004DBCD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CCE03B1BF319D5004DBCD3 /* ViewController.swift */; };
+		62CCE0641BF319D5004DBCD3 /* pop字体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62CCE03D1BF319D5004DBCD3 /* pop字体.ttf */; };
+		62CCE0651BF319D5004DBCD3 /* WAWA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62CCE03E1BF319D5004DBCD3 /* WAWA.ttf */; };
+		62CCE0671BF319D5004DBCD3 /* 华康少女字体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62CCE0401BF319D5004DBCD3 /* 华康少女字体.ttf */; };
+		62CCE0711BF319D5004DBCD3 /* 方正卡通简体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62CCE04A1BF319D5004DBCD3 /* 方正卡通简体.ttf */; };
+		62CCE0721BF319D5004DBCD3 /* 方正古隶.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62CCE04B1BF319D5004DBCD3 /* 方正古隶.ttf */; };
+		62CCE0731BF319D5004DBCD3 /* 方正启体简体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62CCE04C1BF319D5004DBCD3 /* 方正启体简体.ttf */; };
+		62CCE07A1BF319D5004DBCD3 /* 方正静蕾简体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62CCE0531BF319D5004DBCD3 /* 方正静蕾简体.ttf */; };
+		62CCE07D1BF319D5004DBCD3 /* 瘦金体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62CCE0561BF319D5004DBCD3 /* 瘦金体.ttf */; };
+		62FFAA7C1C4E3F48000B8FB0 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFAA7B1C4E3F48000B8FB0 /* MyColor.swift */; };
+		62FFAA871C4E4C4C000B8FB0 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FFAA841C4E4C4C000B8FB0 /* UIColor+HexString.m */; };
+		62FFAA8D1C4E4D30000B8FB0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62FFAA891C4E4D30000B8FB0 /* Info.plist */; };
+		62FFAA8F1C4E4D30000B8FB0 /* Preference.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62FFAA8C1C4E4D30000B8FB0 /* Preference.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6222DBA51BD0E39E006FDE2E /* MyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6222DBA51BD0E39E006FDE2E /* 记事本.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "记事本.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6222DBA81BD0E39E006FDE2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6222DBAA1BD0E39E006FDE2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6222DBAD1BD0E39E006FDE2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6222DBB01BD0E39E006FDE2E /* MyDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDiary.xcdatamodel; sourceTree = "<group>"; };
 		6222DBB21BD0E39E006FDE2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6222DBB51BD0E39E006FDE2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6222DBB71BD0E39E006FDE2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6245B6331C4E279600874F4D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6245B6351C4E27E600874F4D /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		6245B6371C4E280600874F4D /* PreferenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceManager.swift; sourceTree = "<group>"; };
+		625493F21C5A5B0700B85A10 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		625493FA1C5A727700B85A10 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		62B53AE71C4F282600A5CA00 /* MyDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDiary.xcdatamodel; sourceTree = "<group>"; };
+		62B53AE91C4F319800A5CA00 /* MyFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFont.swift; sourceTree = "<group>"; };
+		62CCE0201BF31855004DBCD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62CCE0221BF3185D004DBCD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62CCE02F1BF319D5004DBCD3 /* DiaryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryManager.swift; sourceTree = "<group>"; };
+		62CCE0311BF319D5004DBCD3 /* Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		62CCE0331BF319D5004DBCD3 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		62CCE0351BF319D5004DBCD3 /* AddDiaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDiaryVC.swift; sourceTree = "<group>"; };
+		62CCE0371BF319D5004DBCD3 /* ChangeFontVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeFontVC.swift; sourceTree = "<group>"; };
+		62CCE0391BF319D5004DBCD3 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		62CCE03A1BF319D5004DBCD3 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		62CCE03B1BF319D5004DBCD3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62CCE03D1BF319D5004DBCD3 /* pop字体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pop字体.ttf"; sourceTree = "<group>"; };
+		62CCE03E1BF319D5004DBCD3 /* WAWA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WAWA.ttf; sourceTree = "<group>"; };
+		62CCE0401BF319D5004DBCD3 /* 华康少女字体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "华康少女字体.ttf"; sourceTree = "<group>"; };
+		62CCE04A1BF319D5004DBCD3 /* 方正卡通简体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "方正卡通简体.ttf"; sourceTree = "<group>"; };
+		62CCE04B1BF319D5004DBCD3 /* 方正古隶.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "方正古隶.ttf"; sourceTree = "<group>"; };
+		62CCE04C1BF319D5004DBCD3 /* 方正启体简体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "方正启体简体.ttf"; sourceTree = "<group>"; };
+		62CCE0531BF319D5004DBCD3 /* 方正静蕾简体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "方正静蕾简体.ttf"; sourceTree = "<group>"; };
+		62CCE0561BF319D5004DBCD3 /* 瘦金体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "瘦金体.ttf"; sourceTree = "<group>"; };
+		62FFAA7B1C4E3F48000B8FB0 /* MyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
+		62FFAA831C4E4C4C000B8FB0 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		62FFAA841C4E4C4C000B8FB0 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		62FFAA891C4E4D30000B8FB0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FFAA8C1C4E4D30000B8FB0 /* Preference.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Preference.plist; sourceTree = "<group>"; };
+		62FFAA901C4E4DAD000B8FB0 /* MyDiary-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyDiary-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62CCE0231BF3185D004DBCD3 /* Foundation.framework in Frameworks */,
+				62CCE0211BF31855004DBCD3 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +97,8 @@
 		6222DB9C1BD0E39E006FDE2E = {
 			isa = PBXGroup;
 			children = (
+				62CCE0221BF3185D004DBCD3 /* Foundation.framework */,
+				62CCE0201BF31855004DBCD3 /* UIKit.framework */,
 				6222DBA71BD0E39E006FDE2E /* MyDiary */,
 				6222DBA61BD0E39E006FDE2E /* Products */,
 			);
@@ -48,7 +107,7 @@
 		6222DBA61BD0E39E006FDE2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6222DBA51BD0E39E006FDE2E /* MyDiary.app */,
+				6222DBA51BD0E39E006FDE2E /* 记事本.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +115,106 @@
 		6222DBA71BD0E39E006FDE2E /* MyDiary */ = {
 			isa = PBXGroup;
 			children = (
+				62FFAA7D1C4E402E000B8FB0 /* Tools */,
+				62CCE02E1BF319D5004DBCD3 /* Manager */,
+				62CCE0301BF319D5004DBCD3 /* Entity */,
+				62CCE0321BF319D5004DBCD3 /* View */,
+				62CCE0341BF319D5004DBCD3 /* ViewController */,
 				6222DBA81BD0E39E006FDE2E /* AppDelegate.swift */,
-				6222DBAA1BD0E39E006FDE2E /* ViewController.swift */,
+				6245B6331C4E279600874F4D /* Constants.swift */,
 				6222DBAC1BD0E39E006FDE2E /* Main.storyboard */,
+				62FFAA881C4E4D30000B8FB0 /* Supporting Files */,
 				6222DBB21BD0E39E006FDE2E /* Assets.xcassets */,
+				62B53AE61C4F282600A5CA00 /* MyDiary.xcdatamodeld */,
 				6222DBB41BD0E39E006FDE2E /* LaunchScreen.storyboard */,
-				6222DBB71BD0E39E006FDE2E /* Info.plist */,
-				6222DBAF1BD0E39E006FDE2E /* MyDiary.xcdatamodeld */,
 			);
 			path = MyDiary;
+			sourceTree = "<group>";
+		};
+		62CCE02E1BF319D5004DBCD3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				62CCE02F1BF319D5004DBCD3 /* DiaryManager.swift */,
+				6245B6351C4E27E600874F4D /* UserManager.swift */,
+				6245B6371C4E280600874F4D /* PreferenceManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		62CCE0301BF319D5004DBCD3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				62CCE0311BF319D5004DBCD3 /* Diary.swift */,
+				62FFAA7B1C4E3F48000B8FB0 /* MyColor.swift */,
+				62B53AE91C4F319800A5CA00 /* MyFont.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		62CCE0321BF319D5004DBCD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62CCE0331BF319D5004DBCD3 /* TableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62CCE0341BF319D5004DBCD3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				62CCE0351BF319D5004DBCD3 /* AddDiaryVC.swift */,
+				62CCE0371BF319D5004DBCD3 /* ChangeFontVC.swift */,
+				62CCE0391BF319D5004DBCD3 /* NavigationController.swift */,
+				62CCE03A1BF319D5004DBCD3 /* SettingsVC.swift */,
+				62CCE03B1BF319D5004DBCD3 /* ViewController.swift */,
+				625493F21C5A5B0700B85A10 /* BaseVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		62CCE03C1BF319D5004DBCD3 /* 字体 */ = {
+			isa = PBXGroup;
+			children = (
+				62CCE03D1BF319D5004DBCD3 /* pop字体.ttf */,
+				62CCE03E1BF319D5004DBCD3 /* WAWA.ttf */,
+				62CCE0401BF319D5004DBCD3 /* 华康少女字体.ttf */,
+				62CCE04A1BF319D5004DBCD3 /* 方正卡通简体.ttf */,
+				62CCE04B1BF319D5004DBCD3 /* 方正古隶.ttf */,
+				62CCE04C1BF319D5004DBCD3 /* 方正启体简体.ttf */,
+				62CCE0531BF319D5004DBCD3 /* 方正静蕾简体.ttf */,
+				62CCE0561BF319D5004DBCD3 /* 瘦金体.ttf */,
+			);
+			name = "字体";
+			path = "../字体";
+			sourceTree = "<group>";
+		};
+		62FFAA7D1C4E402E000B8FB0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				62FFAA801C4E4C4C000B8FB0 /* UIColor-HexString */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		62FFAA801C4E4C4C000B8FB0 /* UIColor-HexString */ = {
+			isa = PBXGroup;
+			children = (
+				62FFAA831C4E4C4C000B8FB0 /* UIColor+HexString.h */,
+				62FFAA841C4E4C4C000B8FB0 /* UIColor+HexString.m */,
+			);
+			path = "UIColor-HexString";
+			sourceTree = "<group>";
+		};
+		62FFAA881C4E4D30000B8FB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				625493FA1C5A727700B85A10 /* icon.png */,
+				62CCE03C1BF319D5004DBCD3 /* 字体 */,
+				62FFAA891C4E4D30000B8FB0 /* Info.plist */,
+				62FFAA8C1C4E4D30000B8FB0 /* Preference.plist */,
+				62FFAA901C4E4DAD000B8FB0 /* MyDiary-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +234,7 @@
 			);
 			name = MyDiary;
 			productName = MyDiary;
-			productReference = 6222DBA51BD0E39E006FDE2E /* MyDiary.app */;
+			productReference = 6222DBA51BD0E39E006FDE2E /* 记事本.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,8 +274,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62CCE0711BF319D5004DBCD3 /* 方正卡通简体.ttf in Resources */,
 				6222DBB61BD0E39E006FDE2E /* LaunchScreen.storyboard in Resources */,
+				625493FB1C5A727700B85A10 /* icon.png in Resources */,
+				62CCE0671BF319D5004DBCD3 /* 华康少女字体.ttf in Resources */,
 				6222DBB31BD0E39E006FDE2E /* Assets.xcassets in Resources */,
+				62FFAA8D1C4E4D30000B8FB0 /* Info.plist in Resources */,
+				62CCE07D1BF319D5004DBCD3 /* 瘦金体.ttf in Resources */,
+				62CCE0641BF319D5004DBCD3 /* pop字体.ttf in Resources */,
+				62FFAA8F1C4E4D30000B8FB0 /* Preference.plist in Resources */,
+				62CCE07A1BF319D5004DBCD3 /* 方正静蕾简体.ttf in Resources */,
+				62CCE0731BF319D5004DBCD3 /* 方正启体简体.ttf in Resources */,
+				62CCE0651BF319D5004DBCD3 /* WAWA.ttf in Resources */,
+				62CCE0721BF319D5004DBCD3 /* 方正古隶.ttf in Resources */,
 				6222DBAE1BD0E39E006FDE2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +298,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6222DBAB1BD0E39E006FDE2E /* ViewController.swift in Sources */,
+				62CCE0621BF319D5004DBCD3 /* SettingsVC.swift in Sources */,
+				62CCE05D1BF319D5004DBCD3 /* AddDiaryVC.swift in Sources */,
+				6245B6361C4E27E600874F4D /* UserManager.swift in Sources */,
+				62CCE05C1BF319D5004DBCD3 /* TableCell.swift in Sources */,
 				6222DBA91BD0E39E006FDE2E /* AppDelegate.swift in Sources */,
-				6222DBB11BD0E39E006FDE2E /* MyDiary.xcdatamodeld in Sources */,
+				62B53AEA1C4F319800A5CA00 /* MyFont.swift in Sources */,
+				62CCE05F1BF319D5004DBCD3 /* ChangeFontVC.swift in Sources */,
+				62CCE0631BF319D5004DBCD3 /* ViewController.swift in Sources */,
+				6245B6341C4E279600874F4D /* Constants.swift in Sources */,
+				6245B6381C4E280600874F4D /* PreferenceManager.swift in Sources */,
+				62CCE05A1BF319D5004DBCD3 /* DiaryManager.swift in Sources */,
+				62CCE0611BF319D5004DBCD3 /* NavigationController.swift in Sources */,
+				625493F31C5A5B0700B85A10 /* BaseVC.swift in Sources */,
+				62CCE05B1BF319D5004DBCD3 /* Diary.swift in Sources */,
+				62FFAA871C4E4C4C000B8FB0 /* UIColor+HexString.m in Sources */,
+				62FFAA7C1C4E3F48000B8FB0 /* MyColor.swift in Sources */,
+				62B53AE81C4F282600A5CA00 /* MyDiary.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,10 +425,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MyDiary/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "MyDiary/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = app.MyDiary;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = app.wxy.myDiary;
+				PRODUCT_MODULE_NAME = MyDiary;
+				PRODUCT_NAME = "记事本";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MyDiary/Supporting Files/MyDiary-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -261,10 +440,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MyDiary/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: XINYAN WANG (D28TBBT27W)";
+				INFOPLIST_FILE = "MyDiary/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = app.MyDiary;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = app.wxy.myDiary;
+				PRODUCT_MODULE_NAME = MyDiary;
+				PRODUCT_NAME = "记事本";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MyDiary/Supporting Files/MyDiary-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -287,16 +470,17 @@
 				6222DBBC1BD0E39E006FDE2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6222DBAF1BD0E39E006FDE2E /* MyDiary.xcdatamodeld */ = {
+		62B53AE61C4F282600A5CA00 /* MyDiary.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6222DBB01BD0E39E006FDE2E /* MyDiary.xcdatamodel */,
+				62B53AE71C4F282600A5CA00 /* MyDiary.xcdatamodel */,
 			);
-			currentVersion = 6222DBB01BD0E39E006FDE2E /* MyDiary.xcdatamodel */;
+			currentVersion = 62B53AE71C4F282600A5CA00 /* MyDiary.xcdatamodel */;
 			path = MyDiary.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

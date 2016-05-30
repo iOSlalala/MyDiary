@@ -9,5 +9,7 @@
 #ifndef MyDiary_Bridging_Header_h
 #define MyDiary_Bridging_Header_h
 
+#import "UIColor+HexString.h"
+#import "UILabel+ChangeFont.h"
 
 #endif /* MyDiary_Bridging_Header_h */

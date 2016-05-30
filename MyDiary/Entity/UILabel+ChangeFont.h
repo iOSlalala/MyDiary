@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UILabel_ChangeFont : UILabel
+@interface UILabel(ChangeFont)
 
 @end
